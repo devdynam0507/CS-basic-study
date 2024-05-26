@@ -7,19 +7,19 @@
 - 예를 들어, q만큼의 할당 시간이 부여되었고 N개의 프로세스가 운영된다고 하면 (N-1) * q 시간이 지나야 자기 차례가 됨
 - 할당 시간이 너무 크면 FCFS에 가까워지고, 너무 짧으면 컨텍스트 스위칭이 잦아져서 오버헤드가 커짐
 - 로드밸런서에서 트래픽 분산 알고리즘으로도 사용
-![0](./34-images/RR.PNG)
+![0](./34-images/RR.png)
 
 ## SRF(Shortest Remaining time First)
 - 중간에 더 짧은 프로세스가 들어오면 수행하던 프로세스를 중지하고 해당 프로세스 수행
 - SJF와 유사하지만 SJF는 비선점형, SRF는 선점형
-![1](./34-images/SRF.PNG)
+![1](./34-images/SRF.png)
 
 ## Multi-Level Queue
 - 우선순위에 따른 ready queue를 여러개 사용
 - queue마다 라운드 로빈이나 FCFS 등 다른 스케줄링 알고리즘 적용
 - 기존 수행 중이었던 프로세스가 있는 큐보다 높은 단계의 큐에 새로운 프로세스가 하나라도 있다면 바로 그 프로세스에 프로세서 할당
 - queue 간의 프로세스 이동 안됨
-![2](./34-images/MLQ.PNG)
+![2](./34-images/MLQ.png)
 
 ## Multi-Level Feedback Queue
 - MLQ에서 queue 간의 이동을 허용한 방식

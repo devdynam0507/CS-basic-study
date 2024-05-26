@@ -7,14 +7,14 @@
 - 가장 먼저 온 것을 가장 먼저 처리
 - 길게 수행되는 프로세스가 존재하면 convoy effect 발생
 - convoy effect: ready queue에서 오래 기다리는 현상
-![0](./33-images/FCFS.PNG)
+![0](./33-images/FCFS.png)
 
 ## SJF(Shortest Job First)
 - 실행 시간이 가장 짧은 프로세스를 가장 먼저 실행
 - starvation: 긴 시간을 가진 프로세스가 실행되지 않는 현상
 - 평균 대기 시간 짧음
 - 실제로는 실행시간을 알 수 없기 때문에 과거의 실행했던 시간을 토대로 추측해서 사용
-![1](./33-images/SJF.PNG)
+![1](./33-images/SJF.png)
 
 ## 우선순위(Priority)
 - ready queue에 프로세스가 도착하면, '도착한 프로세스의 우선순위'와 '현재 실행 중인 프로세스의 우선순위'를 비교하여 우선순위가 가장 높은 프로세스에 프로세서를 할당

@@ -15,7 +15,7 @@
   - 고객은 0~n개의 주문을 넣을 수 있다.
   - 주문에는 1~n개의 상품이 들어간다.
 - 정답
-![3](./42-images/ERD_EX-1.PNG)
+![3](./42-images/ERD_EX-1.png)
 
 - 무무오브레전드의 ERD
 - 요구 사항
@@ -23,7 +23,7 @@
   - 챔피언은 한 개 이상의 스킬을 갖는다.
   - 스킬은 한 개 이상의 특성을 갖는다.
 - 정답
-![4](./42-images/ERD_EX-2.PNG)
+![4](./42-images/ERD_EX-2.png)
 
 [참고 자료]
 - erd 표기법: https://velog.io/@yooonji08/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-ER%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8%EC%9D%84-IE%ED%91%9C%EA%B8%B0%EB%B2%95%EC%9C%BC%EB%A1%9C-%EB%B0%94%EA%BE%B8%EA%B8%B0
