@@ -18,7 +18,7 @@
 - 우선순위에 따른 ready queue를 여러개 사용
 - queue마다 라운드 로빈이나 FCFS 등 다른 스케줄링 알고리즘 적용
 - 기존 수행 중이었던 프로세스가 있는 큐보다 높은 단계의 큐에 새로운 프로세스가 하나라도 있다면 바로 그 프로세스에 프로세서 할당
-- queue 간의 프로세스 이동 안됨
+- queue 간의 프로세스 이동 안됨  
 ![2](./34-images/MLQ.png)
 
 ## Multi-Level Feedback Queue
