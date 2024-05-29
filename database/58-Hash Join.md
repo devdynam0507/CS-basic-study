@@ -5,11 +5,11 @@
 - 하나의 테이블이 메모리에 온전히 들어가면 Nested Loop보다 더 효율적
 - 빌드 단계
   - 입력 테이블 중 바이트가 더 작은 테이블 하나를 기반으로 메모리 내 해시 테이블 빌드
-  ![0](./58-images/Hash_Build.png)
+  ![0](./58-images/Hash-Build.png)
   - 조인에 사용되는 필드가 해시 테이블의 키로 사용됨. 예시에서는 'countries.country_id'가 키로 사용됨
 
 - 프로브 단계
   - 레코드를 읽기 시작하며, 각 레코드에서 'persons.country_id'에 일치하는 레코드를 찾아서 결괏값으로 반환  
-  ![1](./58-images/Hash_Build.png)
+  ![1](./58-images/Hash-Build.png)
   - 각 테이블은 한 번씩만 읽게 되어 중첩해서 두 개의 테이블을 읽는 Nested Loop보다 보통 성능이 더 좋음
   - 사용 가능한 메모리양은 시스템 변수 join_buffer_size에 의해 제어되며, 런타임 시에 조정할 수 있음
