@@ -7,3 +7,4 @@
 
 [참고 자료]
 - Sort Merge Join: https://coding-factory.tistory.com/757
+- https://hyeyul-k.tistory.com/15
